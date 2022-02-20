@@ -92,16 +92,16 @@
     <script>
         document.getElementById('felvetel')
         .addEventListener('click', () => {
-            let nev = document.forms['pizza_rendeles']['nev'].value
-            let telefonszam = document.forms['pizza_rendeles']['telefonszam'].value
-            let iranyitoszam = document.forms['pizza_rendeles']['iranyitoszam'].value
-            let varos = document.forms['pizza_rendeles']['varos'].value
-            let utca = document.forms['pizza_rendeles']['utca'].value
-            let hazszam = document.forms['pizza_rendeles']['hazszam'].value
-            let alap = document.forms['pizza_rendeles']['pizza_alap'].value
+            let nev = document.forms['pizza_rendeles']['nev'].value;
+            let telefonszam = document.forms['pizza_rendeles']['telefonszam'].value;
+            let iranyitoszam = document.forms['pizza_rendeles']['iranyitoszam'].value;
+            let varos = document.forms['pizza_rendeles']['varos'].value;
+            let utca = document.forms['pizza_rendeles']['utca'].value;
+            let hazszam = document.forms['pizza_rendeles']['hazszam'].value;
+            let alap = document.forms['pizza_rendeles']['pizza_alap'].value;
             let feltetek = document.forms['pizza_rendeles']['feltetek[]'];
             let feltetek_kivalasztott = [];
-            let megjegyzes = document.forms['pizza_rendeles']['megjegyzes'].value
+            let megjegyzes = document.forms['pizza_rendeles']['megjegyzes'].value;
             for (let i = 0; i < feltetek.length; i++) {
             const elem = feltetek[i];
                 if (elem.type == 'checkbox' && elem.checked == true) {
